@@ -9,8 +9,8 @@ This is library for showing your number in console
 Then...
 
 ```
-import { showNumberInConsole } from 'jsmp-infra-oleksandr-showNumber'
+import { showNumber } from 'jsmp-infra-oleksandr-showNumber'
 
 const number = 5;
-showNumberInConsole(number);
+showNumber(number);
 ```
