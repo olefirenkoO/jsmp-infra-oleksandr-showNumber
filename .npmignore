@@ -1,0 +1,6 @@
+.git
+.npmignore
+.babelrc
+src
+test
+npm-debug.log

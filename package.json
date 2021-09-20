@@ -1,0 +1,29 @@
+{
+  "name": "jsmp-infra-oleksandr-shownumber",
+  "version": "1.0.0",
+  "description": "Show number in console",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "clean": "rm -rf lib",
+    "test:unit": "babel-node test/index.spec.js",
+    "activate": "npm run clean && npm run compile && npm run test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olefirenkoO/jsmp-infra-oleksandr-showNumber.git"
+  },
+  "keywords": [
+    "numbers"
+  ],
+  "author": "Oleksandr Olefirenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olefirenkoO/jsmp-infra-oleksandr-showNumber/issues"
+  },
+  "homepage": "https://github.com/olefirenkoO/jsmp-infra-oleksandr-showNumber#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
